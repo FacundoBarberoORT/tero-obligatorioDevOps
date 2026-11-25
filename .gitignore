@@ -1,0 +1,25 @@
+# Secretos y variables de entorno
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Dependencias y builds
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+
+# Logs, cobertura y otros
+*.log
+coverage/
+.DS_Store
+*.zip
